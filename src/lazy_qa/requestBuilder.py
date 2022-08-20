@@ -54,7 +54,7 @@ def print_request_and_exit(method, url, headers, body_request, zip_payload_neede
     print('\n\n*************************** DEBUG MODE ***************************')
     print('                No request made to any endpoint!!!')
     print('Add the -e flag to the command line to really execute the requests')
-    print('******************************************************************\n')
+    print('********************************************************************\n')
     print(f'METHOD: {method}\n')
     print(f'URL: {url}\n')
     print(f'HEADERS: \n\n{headers}\n')

@@ -66,3 +66,4 @@ def converter_pandas_csv_json(data_path):
     df = pd.read_csv(data_path)
     new_json = df.to_json(orient='records')
     return new_json
+
