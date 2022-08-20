@@ -71,7 +71,7 @@ setup(
     use_scm_version={
         'local_scheme': 'dirty-tag',
         'write_to': 'src/lazy_qa/_version.py',
-        'fallback_version': '0.0.1',
+        'fallback_version': '0.0.2',
     },
     license='MIT',
     description='  ',
